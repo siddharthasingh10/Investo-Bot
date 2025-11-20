@@ -1,127 +1,133 @@
-# 📘 InvestoBot – Your Personal AI Finance Assistant
+<div align="center">
 
-InvestoBot is an AI-powered finance assistant that helps users understand markets, analyze stocks, ask questions from PDFs/news, and calculate investments — all in a simple chat-based interface.  
+# 📘 **InvestoBot – Your Personal AI Finance Assistant**
+### _Smart. Fast. Finance Simplified._
 
-Built using **FastAPI**, **Streamlit**, and **Generative AI with RAG (Retrieval-Augmented Generation)**.
+🚀 **Built with FastAPI · Streamlit · Generative AI · RAG**  
+A conversational assistant that helps you learn finance, analyze stocks, understand PDFs, and calculate investments — all in one place.  
+
+</div>
 
 ---
 
-## 📸 Project Screenshots
-
-> Replace these placeholders with your actual images in the **/assets** folder.
+# 📸 **Project Screenshots**
 
 ### 🏠 Home Interface  
-<img width="1426" height="684" alt="image" src="https://github.com/user-attachments/assets/07e3f4ea-8501-4a10-a517-1c2d152f81c9" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/07e3f4ea-8501-4a10-a517-1c2d152f81c9" width="85%" />
+</p>
 
 ### 💬 Chatbot Interface  
-<img width="1383" height="695" alt="image" src="https://github.com/user-attachments/assets/3d936f80-a280-4389-9fc5-047c3718c154" />
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3d936f80-a280-4389-9fc5-047c3718c154" width="85%" />
+</p>
 
 ### 📈 Stock Market Module  
-<img width="1431" height="660" alt="image" src="https://github.com/user-attachments/assets/7c16a72e-2a5d-4964-8c97-6ef5b413195f" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7c16a72e-2a5d-4964-8c97-6ef5b413195f" width="85%" />
+</p>
 
 ### 📄 PDF Q/A  
-<img width="1440" height="691" alt="image" src="https://github.com/user-attachments/assets/18c033d1-983b-4515-8af9-2324d0634d1c" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/18c033d1-983b-4515-8af9-2324d0634d1c" width="85%" />
+</p>
 
 ### 🧮 Calculators  
-<img width="1443" height="671" alt="image" src="https://github.com/user-attachments/assets/c2ee151a-c3d8-4716-a95a-cf7caa9a2a08" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c2ee151a-c3d8-4716-a95a-cf7caa9a2a08" width="85%" />
+</p>
 
 ---
 
-## 🚀 What This Project Does (Simple Explanation)
+# 🚀 **What This Project Does**
 
-InvestoBot acts like a **smart finance buddy** that can:
+Think of InvestoBot as your **smart finance buddy** that:
 
-### ✔️ **Explain finance concepts**  
-Ask anything like:  
-**"Mutual fund kya hota hai?"**  
-**"Inflation affects investment kaise karta hai?"**
+### ✔️ Explains finance in simple language  
+Examples:  
+- “Mutual fund kya hota hai?”  
+- “Inflation investment ko kaise effect karta hai?”
 
-### ✔️ **Show real-time stock data**  
-You can search any stock and get:  
-- Price  
+### ✔️ Shows real-time stock data  
+- Live prices  
 - Charts  
 - Market overview  
 - Performance  
 
-### ✔️ **Understand your PDFs**  
-Upload any finance document → Ask questions → Get exact answers.
+### ✔️ Reads & understands your PDFs  
+Upload → Ask → Get exact answers, instantly.
 
-### ✔️ **Smart PDF Q&A using RAG**  
-This system reads your PDF deeply and replies using context + AI reasoning.
+### ✔️ Uses RAG for precise PDF Q&A  
+Searches context → Retrieves exact info → AI generates accurate answer.
 
-### ✔️ **Investment calculators**  
+### ✔️ Helps calculate investments  
 - SIP  
 - Lumpsum  
 - ROI  
-- Retirement planning
+- Retirement planning  
 
 ---
 
-## 🧠 Architecture Overview
+# 🧠 **Architecture Overview**
 
-InvestoBot follows a modular design:
+<div align="center">
 
-### Components:
+### **Tech Stack Overview**
+</div>
 
-| Layer | Technology | What it does |
-|-------|------------|--------------|
-| **Frontend** | Streamlit | UI & user interaction |
-| **Backend** | FastAPI | Routes, logic, processing |
-| **LLM** | GPT-based | Conversational intelligence |
-| **RAG Engine** | Embeddings + Vector Search | Smart PDF lookup |
-| **Market APIs** | Finance API | Real-time stock data |
-| **Database (optional)** | PostgreSQL | Store user logs |
+| Layer | Technology | Role |
+|-------|------------|------|
+| **Frontend** | Streamlit | UI & Interaction |
+| **Backend** | FastAPI | Routing + Logic |
+| **LLM** | GPT-Based | Conversational Engine |
+| **RAG Engine** | Embeddings + Vector Search | Smart PDF Lookup |
+| **Market API** | Finance API | Live Stock Data |
+| **Database (Optional)** | PostgreSQL | User Logs |
 
 ---
 
-## 🏗️ Project Features (Detailed)
+# 🏗️ **Detailed Features**
 
-### **1. Conversational Finance Chatbot**
-- Explains finance like a friend  
-- Gives personalized insights  
-- Understands financial terminology  
+### **1️⃣ AI Finance Chatbot**
+- Explains finance concepts conversationally  
+- Gives personalized answers  
+- Understands investment terminology  
 
-### **2. Stock Lookup Tool**
-- Real-time price  
-- Technical data  
-- Fundamentals  
-- Market mood  
+---
 
-### **3. PDF / News Q&A**
+### **2️⃣ Stock Market Lookup**
+- Real-time stock prices  
+- Technical insights  
+- Market mood indicators  
+
+---
+
+### **3️⃣ PDF / News Q&A**
 - Upload any document  
 - Ask questions  
-- Get accurate answers with source context  
-
-### **4. Smart RAG Engine**
-- Splits your PDF  
-- Creates embeddings  
-- Searches relevant chunks  
-- LLM generates accurate responses  
-
-### **5. Financial Calculators**
-Useful for:
-- Students  
-- Traders  
-- Investors  
+- Get accurate answers with context  
 
 ---
 
+### **4️⃣ Smart RAG Engine**
+- Splits PDF into chunks  
+- Converts into embeddings  
+- Retrieves relevant content  
+- AI forms high-quality responses  
 
 ---
 
-## 🏁 How to Run the Project
+### **5️⃣ Financial Calculators**
+For:  
+Students • Traders • Long-term investors  
 
-### 1️⃣ Clone the repo
+---
+
+# 🏁 **How to Run the Project**
+
+### 🔹 1. Clone the repo
 ```bash
 git clone https://github.com/siddharthasingh10/Investo-Bot.git
 cd Investo-Bot
 pip install -r requirements.txt
 streamlit run app.py
-
-

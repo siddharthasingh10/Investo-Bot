@@ -67,3 +67,61 @@ This system reads your PDF deeply and replies using context + AI reasoning.
 
 InvestoBot follows a modular design:
 
+### Components:
+
+| Layer | Technology | What it does |
+|-------|------------|--------------|
+| **Frontend** | Streamlit | UI & user interaction |
+| **Backend** | FastAPI | Routes, logic, processing |
+| **LLM** | GPT-based | Conversational intelligence |
+| **RAG Engine** | Embeddings + Vector Search | Smart PDF lookup |
+| **Market APIs** | Finance API | Real-time stock data |
+| **Database (optional)** | PostgreSQL | Store user logs |
+
+---
+
+## 🏗️ Project Features (Detailed)
+
+### **1. Conversational Finance Chatbot**
+- Explains finance like a friend  
+- Gives personalized insights  
+- Understands financial terminology  
+
+### **2. Stock Lookup Tool**
+- Real-time price  
+- Technical data  
+- Fundamentals  
+- Market mood  
+
+### **3. PDF / News Q&A**
+- Upload any document  
+- Ask questions  
+- Get accurate answers with source context  
+
+### **4. Smart RAG Engine**
+- Splits your PDF  
+- Creates embeddings  
+- Searches relevant chunks  
+- LLM generates accurate responses  
+
+### **5. Financial Calculators**
+Useful for:
+- Students  
+- Traders  
+- Investors  
+
+---
+
+
+---
+
+## 🏁 How to Run the Project
+
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/siddharthasingh10/Investo-Bot.git
+cd Investo-Bot
+pip install -r requirements.txt
+streamlit run app.py
+
+
